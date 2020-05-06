@@ -53,13 +53,31 @@ a {
 
 }
 .item3 h1{
-        color:white;
+      color:white;
         font-size: 60px;
         text-align: center;
-        margin-top:100px ;
+        padding-top: 120px;
         margin-left: 70px;
         
-        font-style: italic;
+      
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        animation: 
+          typing 6.5s steps(40, start),
+          blink-caret 1.75s steps(100) infinite;
+      }
+      
+      /* The typing effect */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+      
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange; }
 }
 
 /*--------------------------------------------------------------------------------------------------------------------*/
