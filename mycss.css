@@ -4,7 +4,7 @@ body{
 .big{
     display:grid;
     grid-template-columns: auto 500px;
-    grid-template-rows: 70px 40px 400px 350px 700px 630px 60px;
+    grid-template-rows: 70px 40px 400px 350px 700px 730px 60px;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------*/
@@ -93,7 +93,7 @@ a {
 
 .item6{
     grid-column:1/3;
-    background-color:#D63031;
+    background-color:#5cb85c;
     color:white;
 }
 p{
@@ -127,7 +127,9 @@ p{
 .item8{
     
     background-image:url('mn.jpg');
-    background-position: center right;
+     background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
     
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
