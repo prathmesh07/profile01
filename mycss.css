@@ -17,7 +17,7 @@ body{
     color:white;
     margin-left:30px;
     font-size: 40px;
-    line-height: 0.5em;
+    padding-top: 8px;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------*/
@@ -133,6 +133,7 @@ p{
 .item7{
     
     background-color: rgb(128, 0, 70);
+	color: antiquewhite;
 }
 .item7 h1{
     font-size: 45px;
